@@ -1,5 +1,5 @@
 html, body {
-    background-color: #535359;
+    background-color: black;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -31,11 +31,11 @@ html, body {
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     height: auto; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
-    background-color: #fff; /* White background for content */
+    background-color: #535359; /* White background for content */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners */
 }
