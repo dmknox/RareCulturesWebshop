@@ -11,8 +11,8 @@ html, body {
     background-size: contain; /* or 'cover' if you prefer full coverage */
     background-repeat: no-repeat;
     background-position: top center;
-    width: 100%;       /* Full width of container */
-    height: 100vh;       /* 40% of the viewport height */
+    width: 95%;       /* Full width of container */
+    height: 20vh;       /* 40% of the viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
