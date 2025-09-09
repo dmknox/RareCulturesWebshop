@@ -14,7 +14,7 @@ html, body {
 
 .banner img {
     display: block;
-    width: 100%;
+    width: 95%;
     height: auto; /* maintains aspect ratio */
 }
 .banner h1 {
