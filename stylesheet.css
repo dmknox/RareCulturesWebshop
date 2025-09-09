@@ -47,7 +47,6 @@ html, body {
 .subcontainer{
     width: 92%;
     height: 100%; /* Maximum width for large screens */
-    margin: 0 auto; /* Center the container */
     margin-top : 100px;
     padding: 20px; /* Add padding inside the container */
     background-color: #535359; /* White background for content */
@@ -55,4 +54,16 @@ html, body {
 
     justify-content: center; /* horizontal centering */
     align-items: center;
+}
+.subcontainer img {
+    display: block;
+    width: 95%;
+    height: auto; /* maintains aspect ratio */
+    align-self: center;
+}
+
+.subcontainer p {
+    margin: 0;
+    font-size: 1.5rem;
+    align-self: center;
 }
