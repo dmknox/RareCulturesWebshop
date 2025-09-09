@@ -89,7 +89,7 @@ html, body {
 
 /* Title ribbon – top left */
 .ribbon.title {
-    top: 8px;
+    top: 16px;
     left: 0;
     background-color: black;
 }
@@ -103,6 +103,6 @@ html, body {
 
 .ribbon.artist {
     top: 8px;
-    right: 8px;
-    background-color: #9b59b6;
+    left: 0px;
+    background-color: black;
 }
