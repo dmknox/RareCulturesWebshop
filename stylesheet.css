@@ -7,19 +7,16 @@ html, body {
 }
 
 .banner {
-    background-image: url('images/Banner.png'); /* Replace with your image URL */
-    background-size: contain; /* or 'cover' if you prefer full coverage */
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;       /* Full width of container */
-    height: 30vh;       /* 40% of the viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
+    width: 100%;
+    height: auto; /* or a fixed height if needed */
+    overflow: hidden;
 }
 
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto; /* maintains aspect ratio */
+}
 .banner h1 {
     margin: 0;
     font-size: 3rem;
