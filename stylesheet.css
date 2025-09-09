@@ -53,13 +53,10 @@ html, body {
 
 /* Subcontainers */
 .sub-container {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height: 80%;
-    width: 50%
+    position: relative; /* Needed for absolute ribbons */
     border-radius: 8px;
-    font-size: 1.5rem;
+    background-color: #fff;
+    overflow: hidden;
 }
 
 /* Image */
@@ -68,6 +65,9 @@ html, body {
     height: auto;
     display: block;
     border-radius: 8px;
+    /* Make sure it's not positioned or with high z-index */
+    position: relative;
+    z-index: 0;
 }
 
 /* Ribbons */
@@ -79,7 +79,7 @@ html, body {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
-    z-index: 1;
+    z-index: 2;
     border-radius: 0 4px 4px 0;
     max-width: 80%;
     white-space: nowrap;
