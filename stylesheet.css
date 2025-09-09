@@ -31,7 +31,7 @@ html, body {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     height: auto; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
