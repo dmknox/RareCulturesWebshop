@@ -100,3 +100,9 @@ html, body {
     left: 0;
     background-color: black;
 }
+
+.ribbon.artist {
+    top: 8px;
+    right: 8px;
+    background-color: #9b59b6;
+}
