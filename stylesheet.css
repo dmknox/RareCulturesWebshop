@@ -91,12 +91,12 @@ html, body {
 .ribbon.title {
     top: 8px;
     left: 0;
-    background-color: #3498db;
+    background-color: black;
 }
 
 /* Format ribbon – bottom left */
 .ribbon.format {
     bottom: 8px;
     left: 0;
-    background-color: #2ecc71;
+    background-color: black;
 }
