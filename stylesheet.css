@@ -32,12 +32,12 @@ html, body {
 
 .container {
     width: 90%;
-    height: auto; /* Maximum width for large screens */
+    height: 90%; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
     background-color: #535359; /* White background for content */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners */
+
     justify-content: center; /* horizontal centering */
     align-items: center;
 }
