@@ -60,5 +60,43 @@ html, body {
     width: 50%
     border-radius: 8px;
     font-size: 1.5rem;
-    background-color: #f4f4f4;
+}
+
+/* Image */
+.sub-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Ribbons */
+.ribbon {
+    position: absolute;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    border-radius: 0 4px 4px 0;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Title ribbon – top left */
+.ribbon.title {
+    top: 8px;
+    left: 0;
+    background-color: #3498db;
+}
+
+/* Format ribbon – bottom left */
+.ribbon.format {
+    bottom: 8px;
+    left: 0;
+    background-color: #2ecc71;
 }
