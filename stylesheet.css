@@ -6,7 +6,8 @@ body {
     background-image: url('images/Banner.png'); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire banner */
     background-position: center; /* Centers the image */
-    height: 500px; /* Adjust height as needed */
+    height: 200px; /* Adjust height as needed */
+    width: 600px;
     color: white; /* Text color */
     display: flex;
     flex-direction: column;
