@@ -32,7 +32,7 @@ html, body {
 }
 
 .container {
-    width: 92%;
+    width: 93%;
     height: 100%; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     margin-top : 100px;
@@ -42,4 +42,24 @@ html, body {
 
     justify-content: center; /* horizontal centering */
     align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Subcontainers */
+.sub-container {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 1.5rem;
 }
