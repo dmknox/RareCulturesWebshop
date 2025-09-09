@@ -46,7 +46,7 @@ html, body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30px, 0.3fr));
+    grid-template-columns: repeat(auto-fit, minmax(30px, 0.15fr));
     gap: 20px;
     padding: 10px;
 }
@@ -55,7 +55,7 @@ html, body {
 .sub-container {
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 80%;
     width: 50%
     border-radius: 8px;
     font-size: 1.5rem;
