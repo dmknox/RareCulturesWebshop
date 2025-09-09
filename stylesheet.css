@@ -55,6 +55,7 @@ html, body {
 .sub-container {
     justify-content: center;
     align-items: center;
+    align-content: center;
     height: 80%;
     width: 50%
     border-radius: 8px;
