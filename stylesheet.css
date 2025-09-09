@@ -89,7 +89,7 @@ html, body {
 
 /* Title ribbon – top left */
 .ribbon.title {
-    top: 16px;
+    top: 40px;
     left: 0;
     background-color: black;
 }
