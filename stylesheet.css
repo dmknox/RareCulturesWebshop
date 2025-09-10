@@ -89,7 +89,7 @@ html, body {
 
 /* Title ribbon – top left */
 .ribbon.title {
-    top: 75px;
+    bottom: 90px;
     left: 0;
     background-color: dimgray;
 }
@@ -102,7 +102,7 @@ html, body {
 }
 
 .ribbon.artist {
-    font-size: 1rem;
+    font-size: 1.5rem;
     top: 8px;
     left: 0px;
     background-color: dimgray;
