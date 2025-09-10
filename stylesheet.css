@@ -91,18 +91,18 @@ html, body {
 .ribbon.title {
     top: 60px;
     left: 0;
-    background-color: black;
+    background-color: darkgray;
 }
 
 /* Format ribbon – bottom left */
 .ribbon.format {
     bottom: 8px;
     left: 0;
-    background-color: black;
+    background-color: darkgray;
 }
 
 .ribbon.artist {
     top: 8px;
     left: 0px;
-    background-color: black;
+    background-color: darkgray;
 }
