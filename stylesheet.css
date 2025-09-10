@@ -87,13 +87,6 @@ html, body {
     text-overflow: ellipsis;
 }
 
-/* Title ribbon – top left */
-.ribbon.title {
-    bottom: 70px;
-    left: 0;
-    background-color: dimgray;
-}
-
 /* Format ribbon – bottom left */
 .ribbon.format {
     bottom: 8px;
