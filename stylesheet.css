@@ -100,3 +100,15 @@ html, body {
     left: 0px;
     background-color: dimgray;
 }
+
+.sub-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit;         /* Inherit text color */
+    display: block;         /* Let it wrap the full container */
+}
+
+.sub-link:hover .sub-container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
