@@ -73,7 +73,7 @@ html, body {
 /* Ribbons */
 .ribbon {
     position: absolute;
-    color: sandybrown;
+    color: darkgoldenrod;
     padding: 5px 10px;
     font-size: 0.8rem;
     font-weight: bold;
@@ -89,7 +89,7 @@ html, body {
 
 /* Title ribbon – top left */
 .ribbon.title {
-    top: 40px;
+    top: 60px;
     left: 0;
     background-color: black;
 }
