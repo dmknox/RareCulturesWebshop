@@ -137,9 +137,8 @@ html, body {
     align-items: center;
 }
 
-.home-container img{
-    display: flex; /* Add this */
-    justify-content: center;
+.home-image{
+    display: flex;
+    justify-content: center; /* horizontal centering */
     align-items: center;
-    text-align: center;
 }
