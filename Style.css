@@ -45,22 +45,6 @@ html, body {
     align-items: center;
 }
 
-
-.container a:link{
-    color:black
-}
-
-.container a:visitied{
-    color:black
-}
-
-
-.container h1{
-    margin: 0;
-    align-content: center;
-}
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30px, 0.15fr));
