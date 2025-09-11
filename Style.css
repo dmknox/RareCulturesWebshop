@@ -32,7 +32,6 @@ html, body {
 }
 
 
-
 .container {
     width: 93%;
     height: 100%; /* Maximum width for large screens */
@@ -55,8 +54,7 @@ html, body {
 }
 
 .container a{
-    color:black
-    visited: black
+    color: black
 }
 
 
