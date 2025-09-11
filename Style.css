@@ -138,6 +138,9 @@ html, body {
 }
 
 .image-wrapper {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;
     text-align: center; /* centers inline content like <img> */
 }
 
