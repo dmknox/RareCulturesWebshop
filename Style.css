@@ -40,8 +40,7 @@ html, body {
     padding: 20px; /* Add padding inside the container */
     background-color: #535359; /* White background for content */
     border-radius: 8px; /* Rounded corners */
-    overflow: hidden;
-    display: flex; /* Add this */
+
     justify-content: center;
     align-items: center;
     text-align: center;
