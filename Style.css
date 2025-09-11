@@ -6,14 +6,6 @@ html, body {
     width: 100%;
 }
 
-a:link{
-    color:black
-}
-
-a:visitied{
-    color:black
-}
-
 .banner {
     width: 100%;
     height: auto; /* or a fixed height if needed */
@@ -51,10 +43,17 @@ a:visitied{
 
     justify-content: center; /* horizontal centering */
     align-items: center;
-
-    a:{color:black}
-    a:visited{ color:black }
 }
+
+
+.container a:link{
+    color:black
+}
+
+.container a:visitied{
+    color:black
+}
+
 
 .container h1{
     margin: 0;
