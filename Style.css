@@ -125,3 +125,8 @@ html, body {
     justify-content: center; /* horizontal centering */
     align-items: center;
 }
+
+.link{
+    a:{color:black}
+    a:visited{ color:black }
+}
