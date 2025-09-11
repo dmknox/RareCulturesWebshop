@@ -6,6 +6,14 @@ html, body {
     width: 100%;
 }
 
+a:link{
+    color:black
+}
+
+a:visitied{
+    color:black
+}
+
 .banner {
     width: 100%;
     height: auto; /* or a fixed height if needed */
@@ -52,11 +60,6 @@ html, body {
     margin: 0;
     align-content: center;
 }
-
-.container a{
-    color: black
-}
-
 
 
 .grid-container {
