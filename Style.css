@@ -138,6 +138,7 @@ html, body {
 }
 
 .home-container img{
+    display: flex; /* Add this */
     justify-content: center;
     align-items: center;
     text-align: center;
