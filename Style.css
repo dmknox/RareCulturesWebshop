@@ -47,6 +47,14 @@ html, body {
     text-align: center;
 }
 
+.link{
+    overflow: hidden;
+    display: flex; /* Add this */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30px, 0.15fr));
