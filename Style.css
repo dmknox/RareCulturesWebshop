@@ -12,8 +12,8 @@ html, body {
     overflow: hidden;
     background-color: black;
     display: flex;
-    justify-content: left; /* horizontal centering */
-    align-items: left;
+    justify-content: right; /* horizontal centering */
+    align-items: right;
 }
 
 .banner img {
