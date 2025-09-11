@@ -41,15 +41,8 @@ html, body {
     background-color: #535359; /* White background for content */
     border-radius: 8px; /* Rounded corners */
 
-    justify-content: center; /* horizontal centering */
-    align-items: center;
-    text-align: center;
-}
-
-.container h1{
-    width: 93%;
-    height: 100%;
-    justify-content: center; /* horizontal centering */
+    display: flex; /* Add this */
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
