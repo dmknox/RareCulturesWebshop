@@ -31,6 +31,8 @@ html, body {
     font-size: 1.5rem;
 }
 
+
+
 .container {
     width: 93%;
     height: 100%; /* Maximum width for large screens */
@@ -51,6 +53,13 @@ html, body {
     margin: 0;
     align-content: center;
 }
+
+.container a{
+    color:black
+    visited{color:black}
+}
+
+
 
 .grid-container {
     display: grid;
