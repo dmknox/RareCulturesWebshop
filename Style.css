@@ -124,7 +124,7 @@ html, body {
 }
 
 .home-container {
-    width: 65%;
+    width: 45%;
     height: 50%; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     margin-top : 100px;
