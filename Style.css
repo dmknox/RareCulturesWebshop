@@ -32,12 +32,12 @@ html, body {
 }
 
 .navigation-bar{
-    width: 75%;
-    height: 75%; /* Maximum width for large screens */
+    width: 10%;
+    height: 10%; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     margin-top : 1px;
     padding: 20px; /* Add padding inside the container */
-    background-color: #535359; /* White background for content */
+    background-color: black; /* White background for content */
     border-radius: 8px; /* Rounded corners */
 
     justify-content: center;
