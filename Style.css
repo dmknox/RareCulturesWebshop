@@ -40,6 +40,7 @@ html, body {
     padding: 20px; /* Add padding inside the container */
     background-color: #535359; /* White background for content */
     border-radius: 8px; /* Rounded corners */
+    display: flex;
 
     justify-content: center; /* horizontal centering */
     align-items: center;
