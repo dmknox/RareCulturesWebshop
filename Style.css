@@ -129,7 +129,7 @@ html, body {
     height: 60%; /* Maximum width for large screens */
     margin: 0 auto; /* Center the container */
     margin-top : 100px;
-    padding: 20px; /* Add padding inside the container */
+    padding: 10px; /* Add padding inside the container */
     background-color: #535359; /* White background for content */
     border-radius: 8px; /* Rounded corners */
 
