@@ -134,5 +134,5 @@ html, body {
     border-radius: 8px; /* Rounded corners */
 
     display: flex;
-    justify-content: center; /* horizontal centering */
+    align-items: center;
 }
