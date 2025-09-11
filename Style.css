@@ -12,7 +12,7 @@ html, body {
     overflow: hidden;
     background-color: black;
     display: flex;
-    justify-content: center; /* horizontal centering */
+    justify-content: left; /* horizontal centering */
     align-items: left;
 }
 
