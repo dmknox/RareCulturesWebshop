@@ -137,9 +137,3 @@ html, body {
     justify-content: center; /* horizontal centering */
     align-items: center;
 }
-
-.home-container img {
-    display: block;
-    width: 75%;
-    height: 75%
-}
