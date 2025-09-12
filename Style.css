@@ -1,9 +1,43 @@
+@font-face {
+font-family: "Cy";
+src: url("fonts/Cy_Text.otf") format("opentype");
+font-weight: 400; /* normal */
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Cy";
+src: url("fonts/Cy_Text_SemiBold.otf") format("opentype");
+font-weight: 600; /* semibold */
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Cy";
+src: url("fonts/Cy_Text_Bold.otf") format("opentype");
+font-weight: 700; /* bold */
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Cy";
+src: url("fonts/Cy_Text_ExtraBold.otf") format("opentype");
+font-weight: 800; /* extra bold */
+font-style: normal;
+font-display: swap;
+}
+
 html, body {
     background-color: black;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: "Cy", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -67,8 +101,6 @@ html, body {
         text-decoration: underline;
         color:darkgoldenrod;
     }
-
-
 
 }
 
