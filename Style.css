@@ -73,7 +73,7 @@ html, body {
     width: 63.009%;
     height: 75.4%; /* Maximum width for large screens */
     padding-top: 25px; /* Add padding inside the container */
-    background-color: #535359; /* White background for content */
+    background-color: #0A0A0A; /* White background for content */
     padding-left: 15px;
 
     display: flex;
@@ -84,12 +84,12 @@ html, body {
 
     a:link {
         text-decoration: none;
-        color: black;
+        color: A7A6A6;
     }
 
     a:visited {
         text-decoration: none;
-        color: black;
+        color: A7A6A6;
     }
 
     a:hover {
@@ -102,6 +102,23 @@ html, body {
         color:darkgoldenrod;
     }
 
+}
+
+.container img{
+    padding-bottom: 30px;
+}
+
+.container p{
+    color: #A7A6A6;
+}
+.container h1{
+    color: darkgoldenrod;
+}
+.container h4{
+    color: #A7A6A6;
+}
+.container h3{
+    color: #A7A6A6;
 }
 
 .link{
@@ -191,7 +208,7 @@ html, body {
 .sidebar{
     width: 36.4%;
     height: 100%; /* Maximum width for large screens */
-    background-color: darkgray; /* White background for content */
+    background-color: #0E0E0E; /* White background for content */
 
     justify-content: center;
     align-items: center;
@@ -200,12 +217,12 @@ html, body {
 
     a:link {
         text-decoration: none;
-        color: black;
+        color: #A7A6A6;
     }
 
     a:visited {
         text-decoration: none;
-        color: black;
+        color: #A7A6A6;
     }
 
     a:hover {
@@ -218,4 +235,17 @@ html, body {
         color:darkgoldenrod;
     }
 
+}
+
+.sidebar * {
+    padding: 15px;
+}
+
+.sidebar h1{
+    font-size: 2.5rem;
+    color: goldenrod;
+}
+
+.sidebare h2{
+    font-size:1.8rem
 }
