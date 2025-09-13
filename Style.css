@@ -140,7 +140,7 @@ html, body {
 /* Subcontainers */
 .sub-container {
     position: relative; /* Needed for absolute ribbons */
-    background-color: #fff;
+    background-color: #0A0A0A;
     overflow: hidden;
 }
 
@@ -174,7 +174,7 @@ html, body {
 /* Format ribbon – bottom left */
 .ribbon.format {
     font-size: .85rem;
-    top: 55px;
+    top: 65px;
     left: 0;
     background-color: dimgray;
 }
