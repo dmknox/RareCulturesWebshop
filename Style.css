@@ -173,14 +173,14 @@ html, body {
 
 /* Format ribbon – bottom left */
 .ribbon.format {
-    font-size: .85rem;
+    font-size: .75rem;
     top: 65px;
     left: 0;
     background-color: dimgray;
 }
 
 .ribbon.artist {
-    font-size: .85rem;
+    font-size: .75rem;
     top: 8px;
     left: 0px;
     background-color: dimgray;
