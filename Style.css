@@ -76,20 +76,18 @@ html, body {
     background-color: #0A0A0A; /* White background for content */
     padding-left: 15px;
 
-    display: flex;
-    flex-direction: column;
     align-items: center; /* center image horizontally */
-    text-align: left; /* align text to the right */
+    text-align: center; /* align text to the right */
     float: right;
 
     a:link {
         text-decoration: none;
-        color: A7A6A6;
+        color: #A7A6A6;
     }
 
     a:visited {
         text-decoration: none;
-        color: A7A6A6;
+        color: #A7A6A6;
     }
 
     a:hover {
@@ -110,24 +108,70 @@ html, body {
 
 .container p{
     color: #A7A6A6;
+    text-align: left;
 }
 .container h1{
     color: darkgoldenrod;
+    text-align: left;
+    text-align: left;
 }
 .container h4{
     color: #A7A6A6;
+    text-align: left;
 }
 .container h3{
     color: #A7A6A6;
+    text-align: left;
 }
 
-.link{
-    overflow: hidden;
-    display: flex; /* Add this */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
+.artist-container {
+    width: 63.009%;
+    height: 75.4%; /* Maximum width for large screens */
+    padding-top: 25px; /* Add padding inside the container */
+    background-color: #0A0A0A; /* White background for content */
+    padding-left: 15px;
+
+    align-items: center; /* center image horizontally */
+    text-align: center; /* align text to the right */
+    float: right;
+
+    a:link {
+        text-decoration: none;
+        color: #A7A6A6;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: #A7A6A6;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color:darkgoldenrod;
+    }
+
+    a:active {
+        text-decoration: underline;
+        color:darkgoldenrod;
+    }
+
+}
+
+.artist-container img{
+    padding-bottom: 30px;
+}
+
+.artist-container p{
+    color: #A7A6A6;
+}
+.artist-container h1{
+    color: darkgoldenrod;
+}
+.artist-container h4{
+    color: #A7A6A6;
+}
+.artist-container h3{
+    color: #A7A6A6;
 }
 
 .grid-container {
@@ -135,11 +179,14 @@ html, body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 0.15fr));
     gap: 20px;
     padding: 10px;
+
+    justify-content: center;
 }
 
 /* Subcontainers */
 .sub-container {
     position: relative; /* Needed for absolute ribbons */
+
     background-color: #0A0A0A;
     overflow: hidden;
 }
@@ -248,4 +295,91 @@ html, body {
 
 .sidebare h2{
     font-size:1.8rem
+}
+
+.home text{}
+
+.album{
+
+    width: 25%;
+    height: 75.4%; /* Maximum width for large screens */
+    padding-top: 25px; /* Add padding inside the container */
+    background-color: #0A0A0A; /* White background for content */
+
+    align-items: center; /* center image horizontally */
+    text-align: center; /* align text to the right */
+    float: left;
+}
+
+.album img{
+
+    padding-left: 80px;
+    display: flex;
+    flex-direction: left;
+
+}
+
+.album p{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+.album h1{
+    color: darkgoldenrod;
+    vertical-align: top;
+}
+.album h4{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+.album h3{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+
+
+
+.album-text{
+
+    width: 38.009%;
+    height: 75.4%; /* Maximum width for large screens */
+    padding-top: 25px; /* Add padding inside the container */
+    background-color: #0A0A0A; /* White background for content */
+
+    align-items: center; /* center image horizontally */
+    text-align: center; /* align text to the right */
+    float: left;
+}
+
+.album-text img{
+
+    padding-left: 80px;
+    display: flex;
+    flex-direction: right;
+    align-items: right; /* center image horizontally */
+    text-align: right; /* align text to the right */
+
+}
+
+.album-text p{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+.album-text h1{
+    color: darkgoldenrod;
+    vertical-align: top;
+}
+.album-text h4{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+.album-text h3{
+    color: #A7A6A6;
+    vertical-align: top;
+}
+
+.album-text h2{
+    color: #A7A6A6;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 50px;
 }
